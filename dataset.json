@@ -1,0 +1,58 @@
+/** dataset.json
+TODO need a way to represent state of menue*/
+{
+  "key": "initial",
+  "main": {
+    "tag":  "div",
+    "class": "tree",
+    "inner": [
+      {
+        "node": {
+          "tag": "ul",
+          "inner": [
+            {
+              "tag": "li",
+              "inner": "1"
+            },
+            {
+              "tag": "li",
+              "inner": [
+                {
+                  "tag": "ul",
+                  "inner": [
+                    {
+                      "tag": "li",
+                      "inner": "1.1"
+                    },
+                    {
+                      "tag": "ul",
+                      "inner": [
+                        {
+                          "tag": "li",
+                          "inner": "1.1.1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "inner": "2"
+            },
+            {
+              "tag": "ul",
+              "inner": [
+                {
+                  "tag": "li",
+                  "inner": "2.1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
