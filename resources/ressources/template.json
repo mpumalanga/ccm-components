@@ -1,0 +1,1 @@
+ccm.callback["template.json"]({"main":{"tag":"div","class":"tree","inner":[{"tag":"ul","inner":[{"tag":"li","inner":"1"},{"tag":"li","inner":[{"tag":"ul","inner":[{"tag":"li","inner":"1.1"},{"tag":"ul","inner":[{"tag":"li","inner":"1.1.1"}]}]}]},{"tag":"li","inner":"2"},{"tag":"ul","inner":[{"tag":"li","inner":"2.1"}]}]}]}});
