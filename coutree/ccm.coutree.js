@@ -75,7 +75,6 @@ ccm.component( {
 
                             // add submitted message in dataset for rendering
                             dataset.node.push( { user: self.user.data().key} );
-                            
                         } );
                     });
 
