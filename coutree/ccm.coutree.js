@@ -7,7 +7,7 @@ ccm.component( {
     name: 'coutree',
 
     config: {
-        html:  [ ccm.store, { local: 'template.json' } ],
+        html:  [ ccm.store, { local: '../coutree/template.json' } ],
         jstreelib: [ccm.load, 'https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js'],
         jstreecss: [ccm.load, 'https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css'],
         store: [ ccm.store, { url: 'ws://ccm2.inf.h-brs.de/index.js', store: 'coutree' } ],
